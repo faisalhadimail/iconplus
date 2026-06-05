@@ -1,0 +1,46 @@
+<!-- Halaman Utama Website (Prioritas Tertinggi) -->
+<url>
+    <loc>https://iconnetjateng.web.id/</loc>
+    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+
+<!-- 
+CATATAN UNTUK PENGEMBANGAN KE DEPAN:
+Jika nanti Anda membuat halaman/file HTML baru secara terpisah 
+(bukan di dalam index.html), Anda bisa menghapus tanda komentar 
+di bawah ini dan mengubah URL-nya.
+-->
+
+<!-- Contoh Halaman Legalitas -->
+<!--
+<url>
+    <loc>https://iconnetjateng.web.id/kebijakan-privasi.html</loc>
+    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/syarat-ketentuan.html</loc>
+    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+-->
+
+<!-- Contoh Halaman Khusus Kota (Jika Ingin Dibuatkan Halaman Terpisah) -->
+<!--
+<url>
+    <loc>https://iconnetjateng.web.id/pasang-wifi-semarang.html</loc>
+    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/pasang-wifi-pekalongan.html</loc>
+    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+-->
