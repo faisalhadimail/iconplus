@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://iconnetjateng.web.id/sitemap.xml
