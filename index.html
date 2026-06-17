@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="yebn4UsDwN6UAYineSWJ_lLPdDYFk3hLU2e5qRMrjuQ" />
     
-    <!-- SEO On-Page Mulai -->
-    <title>Pasang WiFi ICONNET Jawa Tengah - Internet Fiber Optic PLN</title>
+    <!-- SEO On-Page Dinamis (Akan diubah otomatis oleh JS di bawah) -->
+  
+     <title id="page-title">Promo Pasang ICONNET di Jawa Tengah - Paket Bundling Termurah</title>
     <meta name="description" content="Layanan resmi pendaftaran dan pemasangan internet WiFi ICONNET dari PLN di seluruh wilayah Jawa Tengah. Nikmati internet fiber optic unlimited tanpa FUP.">
     <meta name="keywords" content="iconnet, iconnet batang, pasang wifi batang, wifi pln batang, internet pln, provider internet batang, promo iconnet, iconnet extra, internet murah, wifi murah, pasang wifi murah, internet unlimited, wifi unlimited, internet rumah murah, wifi rumah murah, internet cepat murah, wifi cepat murah, internet tanpa batas, wifi tanpa batas, paket internet unlimited, paket wifi unlimited, internet fiber murah, wifi fiber murah, internet rumahan, wifi rumahan, internet stabil, wifi stabil, internet bebas kuota, internet tanpa FUP, wifi tanpa FUP, internet harga terjangkau, wifi harga terjangkau, internet terbaik, wifi terbaik, internet cepat, wifi cepat, jaringan internet rumah, layanan internet rumah, provider internet murah, isp murah, internet fiber optic, wifi fiber optic, internet gratis pemasangan, wifi gratis pemasangan, internet gratis biaya pasang, wifi gratis biaya pasang, promo internet murah, promo wifi murah, paket internet rumah, paket wifi rumah, internet unlimited murah, wifi unlimited murah, pasang internet gratis, pasang wifi gratis, internet keluarga, wifi keluarga, internet untuk streaming, internet untuk gaming, wifi untuk gaming, internet untuk work from home, internet bisnis murah, wifi bisnis murah, internet rumah murah unlimited gratis biaya pasang, wifi murah unlimited tanpa FUP, paket internet rumah murah bulanan, internet fiber optic murah dan cepat, wifi rumah gratis biaya pemasangan, internet unlimited untuk gaming murah, wifi stabil untuk streaming dan kerja, pasang wifi rumah tanpa biaya instalasi, internet keluarga murah unlimited, provider internet murah terbaik di kota saya, pasang wifi di semarang, pasang wifi di surakarta, pasang wifi di solo, pasang wifi di magelang, pasang wifi di salatiga, pasang wifi di pekalongan, pasang wifi di tegal, pasang wifi di banjarnegara, pasang wifi di banyumas, pasang wifi di purwokerto, pasang wifi di blora, pasang wifi di boyolali, pasang wifi di brebes, pasang wifi di cilacap, pasang wifi di demak, pasang wifi di grobogan, pasang wifi di purwodadi, pasang wifi di jepara, pasang wifi di karanganyar, pasang wifi di kebumen, pasang wifi di kendal, pasang wifi di klaten, pasang wifi di kudus, pasang wifi di pati, pasang wifi di pemalang, pasang wifi di purbalingga, pasang wifi di purworejo, pasang wifi di rembang, pasang wifi di sragen, pasang wifi di sukoharjo, pasang wifi di temanggung, pasang wifi di wonogiri, pasang wifi di wonosobo, pasang iconnet jawa tengah, pasang wifi pln jawa tengah">
     <meta name="author" content="Mitra Pemasaran ICONNET Batang">
@@ -90,696 +91,365 @@
     </script>
     <!-- SEO On-Page Selesai -->
 
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Tailwind Config for Custom Colors -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
+                    fontFamily: { sans: ['Inter', 'sans-serif'], },
                     colors: {
-                        iconnet: {
-                            blue: '#00529B', // Warna biru khas ICONNET (perkiraan)
-                            lightBlue: '#E6F0F9',
-                            orange: '#F58220' // Warna aksen
-                        }
+                        iconnet: { blue: '#00529B', lightBlue: '#E6F0F9', orange: '#F58220' }
                     }
                 }
             }
         }
     </script>
     <style>
-        /* Custom Styles */
-        .glass-effect {
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(10px);
-        }
-        .whatsapp-float {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            z-index: 50;
-            animation: pulse 2s infinite;
-        }
+        .glass-effect { background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(10px); }
+        .package-card:hover { transform: translateY(-5px); transition: transform 0.3s ease; box-shadow: 0 15px 30px -5px rgba(0, 82, 155, 0.2); }
+        .whatsapp-float { position: fixed; bottom: 20px; right: 20px; z-index: 50; animation: pulse 2s infinite; }
         @keyframes pulse {
             0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
             70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
             100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
         }
-        /* Penyesuaian mobile */
-        @media (max-width: 767px) {
-            .whatsapp-float {
-                bottom: 85px; /* Mengangkat WA agar tidak tertutup bottom nav */
-            }
-            body {
-                padding-bottom: 64px; /* Ruang untuk bottom nav agar footer tidak tertutup */
-            }
-        }
-        .package-card:hover {
-            transform: translateY(-5px);
-            transition: transform 0.3s ease;
-            box-shadow: 0 10px 25px -5px rgba(0, 82, 155, 0.2);
-        }
-        /* Offset for fixed navbar to prevent content hiding behind it */
-        section[id] {
-            scroll-margin-top: 5rem; /* Menyesuaikan tinggi navbar (h-20) */
-        }
-        
-        /* Styling untuk Bottom Nav Active State */
-        .mobile-nav-link.active {
-            color: #00529B; /* Warna ICONNET Blue */
-        }
-        .mobile-nav-link.active i {
-            transform: scale(1.1);
-            transition: transform 0.2s;
+        .hero-pattern {
+            background-color: #00529B;
+            background-image: radial-gradient(circle at top right, rgba(255,255,255,0.1) 0%, transparent 40%), radial-gradient(circle at bottom left, rgba(245, 130, 32, 0.15) 0%, transparent 40%);
         }
     </style>
 </head>
 <body class="font-sans text-gray-800 bg-gray-50">
 
-    <!-- Navbar Atas (Desktop Saja) -->
-    <nav class="fixed w-full z-40 top-0 transition-all duration-300 glass-effect border-b border-gray-200 shadow-sm" id="navbar">
+    <!-- Navbar Khusus Landing Page -->
+    <nav class="fixed w-full z-40 top-0 glass-effect border-b border-gray-200 shadow-sm py-3">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20">
-                <div class="flex items-center">
-                    <a href="#" class="flex items-center gap-2">
-                        <!-- Logo ICONNET -->
-                        <img src="https://iconnet.id/_ipx/h_150&f_webp&q_80/assets/img/logo-iconnet.webp" alt="Logo ICONNET" class="h-10 md:h-12 w-auto">
-                    </a>
-                </div>
+            <div class="flex justify-between items-center h-14">
+                <a href="index.html" class="flex items-center gap-2">
+                    <img src="https://iconnet.id/_ipx/h_150&f_webp&q_80/assets/img/logo-iconnet.webp" alt="Logo ICONNET" class="h-10 w-auto">
+                </a>
                 
-                <!-- Desktop Menu -->
-                <div class="hidden md:flex items-center space-x-8">
-                    <a href="#beranda" class="nav-link desktop-link text-gray-600 hover:text-iconnet-blue font-medium transition-colors">Beranda</a>
-                    <a href="#profil" class="nav-link desktop-link text-gray-600 hover:text-iconnet-blue font-medium transition-colors">Profil</a>
-                    <a href="#paket" class="nav-link desktop-link text-gray-600 hover:text-iconnet-blue font-medium transition-colors">Paket Layanan</a>
-                    <a href="#galeri" class="nav-link desktop-link text-gray-600 hover:text-iconnet-blue font-medium transition-colors">Galeri</a>
-                    <a href="#kontak" class="nav-link desktop-link text-gray-600 hover:text-iconnet-blue font-medium transition-colors">Kontak</a>
-                    <a href="https://wa.me/6282328588035" target="_blank" class="bg-iconnet-orange text-white px-5 py-2 rounded-full font-bold hover:bg-orange-600 transition-colors shadow-md">
-                        Pasang Sekarang
-                    </a>
-                </div>
-                
-                <!-- Mobile button "Pasang" (Pengganti Hamburger) -->
-                <div class="flex items-center md:hidden">
-                    <a href="https://wa.me/6282328588035" target="_blank" class="bg-iconnet-orange text-white px-4 py-2 text-sm rounded-full font-bold shadow-md">
-                        Pasang
-                    </a>
-                </div>
+                <a href="#" class="wa-link bg-[#25D366] text-white px-5 py-2 rounded-full font-bold hover:bg-[#128C7E] transition-colors shadow-md flex items-center gap-2" data-wa-text="Halo, saya warga [KOTA]. Ingin tanya Promo ICONNET...">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> <span class="hidden sm:inline">Hubungi Kami</span>
+                </a>
             </div>
         </div>
     </nav>
 
-    <!-- Bottom Navigation (Mobile Saja) -->
-    <div class="md:hidden fixed bottom-0 left-0 z-50 w-full h-[64px] bg-white border-t border-gray-200 shadow-[0_-5px_10px_rgba(0,0,0,0.05)]">
-        <div class="grid h-full max-w-lg grid-cols-5 mx-auto font-medium">
-            <a href="#beranda" class="mobile-nav-link inline-flex flex-col items-center justify-center px-2 text-gray-400 hover:bg-gray-50 transition-colors" data-target="beranda">
-                <i class="fa-solid fa-house mb-1 text-xl"></i>
-                <span class="text-[10px]">Home</span>
-            </a>
-            <a href="#profil" class="mobile-nav-link inline-flex flex-col items-center justify-center px-2 text-gray-400 hover:bg-gray-50 transition-colors" data-target="profil">
-                <i class="fa-solid fa-building mb-1 text-xl"></i>
-                <span class="text-[10px]">Profil</span>
-            </a>
-            <a href="#paket" class="mobile-nav-link inline-flex flex-col items-center justify-center px-2 text-gray-400 hover:bg-gray-50 transition-colors" data-target="paket">
-                <i class="fa-solid fa-wifi mb-1 text-xl"></i>
-                <span class="text-[10px]">Paket</span>
-            </a>
-            <a href="#galeri" class="mobile-nav-link inline-flex flex-col items-center justify-center px-2 text-gray-400 hover:bg-gray-50 transition-colors" data-target="galeri">
-                <i class="fa-solid fa-images mb-1 text-xl"></i>
-                <span class="text-[10px]">Galeri</span>
-            </a>
-            <a href="#kontak" class="mobile-nav-link inline-flex flex-col items-center justify-center px-2 text-gray-400 hover:bg-gray-50 transition-colors" data-target="kontak">
-                <i class="fa-solid fa-headset mb-1 text-xl"></i>
-                <span class="text-[10px]">Kontak</span>
-            </a>
-        </div>
-    </div>
-
-    <!-- Hero Section -->
-    <section id="beranda" class="pt-28 pb-16 md:pt-36 md:pb-24 lg:pt-40 lg:pb-28 bg-iconnet-lightBlue relative overflow-hidden">
-        <!-- Decorative background elements -->
-        <div class="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
-            <div class="absolute -top-[20%] -right-[10%] w-[50%] h-[80%] rounded-full bg-blue-100 blur-3xl opacity-50"></div>
-            <div class="absolute -bottom-[20%] -left-[10%] w-[40%] h-[60%] rounded-full bg-orange-100 blur-3xl opacity-50"></div>
-        </div>
-
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-            <div class="max-w-4xl mx-auto text-center">
-                <span class="inline-block py-1 px-3 rounded-full bg-blue-100 text-iconnet-blue font-semibold text-sm mb-4">
-                    ICONNET EXTRA - BEST CHOICE
-                </span>
-                <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-gray-900 mb-6 leading-tight">
-                    WiFi-nya PLN, <br class="hidden md:block" /><span class="text-iconnet-blue">Stabil Tanpa Kompromi</span>
-                </h1>
-                <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
-                    Streaming <b>Tanpa Buffering</b>, <b>Unlimited</b> Tanpa Batas Kuota. Nikmati Promo Paket Bundling 3 Bulan sekarang juga!
-                </p>
-                <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#paket" class="bg-iconnet-blue text-white px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-blue-800 transition-colors shadow-lg text-center">
-                        Lihat Promo
-                    </a>
-                    <a href="https://wa.me/6282328588035" target="_blank" class="bg-white text-iconnet-blue border-2 border-iconnet-blue px-8 py-3.5 rounded-lg font-bold text-lg hover:bg-blue-50 transition-colors flex items-center justify-center gap-2">
-                        <i class="fa-brands fa-whatsapp text-xl"></i> Tanya CS Kami
-                    </a>
+    <!-- Hero Section Dinamis -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-28 hero-pattern text-white relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <div class="inline-block py-1 px-4 rounded-full bg-orange-500 text-white font-bold text-sm mb-6 animate-bounce shadow-lg">
+                <i class="fa-solid fa-location-dot mr-1"></i> KHUSUS AREA <span class="nama-kota uppercase">JAWA TENGAH</span> & SEKITARNYA
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight mb-6 leading-tight">
+                Promo ICONNET <span class="nama-kota">Jawa Tengah</span> <br class="hidden md:block"/> <span class="text-yellow-300">Paket Bundling 3 Bulan!</span>
+            </h1>
+            
+            <p class="text-lg md:text-2xl text-blue-100 mb-10 max-w-3xl mx-auto font-light">
+                Internet Fiber Optic PLN 100% Unlimited di daerah Anda. Pemasangan cepat, koneksi super stabil, dan <strong class="text-white">GRATIS Biaya Instalasi</strong>.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#promo-paket" class="bg-yellow-400 text-blue-900 px-8 py-4 rounded-xl font-black text-lg hover:bg-yellow-300 transition-transform hover:scale-105 shadow-[0_10px_20px_rgba(0,0,0,0.2)]">
+                    Lihat Harga Promo
+                </a>
+            </div>
+            
+            <!-- Trust Badges -->
+            <div class="mt-12 flex flex-wrap justify-center gap-4 md:gap-8 border-t border-white/20 pt-8">
+                <div class="flex items-center gap-2 text-sm md:text-base font-medium">
+                    <i class="fa-solid fa-check-circle text-green-400 text-xl"></i> Unlimited Tanpa FUP
                 </div>
-                
-                <!-- Trust Indicators -->
-                <div class="mt-12 flex flex-wrap items-center justify-center gap-6 md:gap-10 text-base text-gray-600 font-medium">
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check-circle text-green-500 text-xl"></i> Full Fiber Optic</div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check-circle text-green-500 text-xl"></i> Tanpa FUP</div>
-                    <div class="flex items-center gap-2"><i class="fa-solid fa-check-circle text-green-500 text-xl"></i> CS 24/7</div>
+                <div class="flex items-center gap-2 text-sm md:text-base font-medium">
+                    <i class="fa-solid fa-check-circle text-green-400 text-xl"></i> Fiber Optic PLN
+                </div>
+                <div class="flex items-center gap-2 text-sm md:text-base font-medium">
+                    <i class="fa-solid fa-check-circle text-green-400 text-xl"></i> Pemasangan Cepat
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Profil Usaha Section -->
-    <section id="profil" class="py-20 bg-white">
+    <!-- Mengapa Memilih ICONNET Section -->
+    <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Mengapa Memilih ICONNET?</h2>
                 <div class="w-20 h-1 bg-iconnet-orange mx-auto rounded-full mb-6"></div>
-                <p class="text-lg text-gray-600">Kami adalah mitra resmi pemasangan layanan internet ICONNET. Berkomitmen memberikan pelayanan pemasangan tercepat dan bantuan teknis terbaik untuk wilayah Anda.</p>
+                <p class="text-lg text-gray-600">Sebagai bagian dari PLN Group, kami memberikan standar kualitas jaringan internet terbaik untuk kenyamanan aktivitas digital Anda di rumah.</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Feature 1 -->
-                <div class="bg-gray-50 rounded-2xl p-8 text-center border border-gray-100 hover:shadow-lg transition-shadow">
-                    <div class="w-16 h-16 mx-auto bg-blue-100 text-iconnet-blue rounded-full flex items-center justify-center text-2xl mb-6">
+                <div class="bg-blue-50 rounded-2xl p-8 text-center border border-blue-100 hover:shadow-lg transition-shadow group">
+                    <div class="w-20 h-20 mx-auto bg-white text-iconnet-blue rounded-2xl shadow-sm flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-rocket"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Koneksi Cepat & Stabil</h3>
-                    <p class="text-gray-600">Menggunakan 100% jaringan Fiber Optic dari PLN, menjamin koneksi internet yang stabil di segala kondisi cuaca.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Kecepatan Stabil</h3>
+                    <p class="text-gray-600">Jaringan 100% Fiber Optic memastikan koneksi internet Anda stabil tanpa gangguan, bahkan saat cuaca buruk sekalipun.</p>
                 </div>
 
-                <!-- Feature 2 -->
-                <div class="bg-gray-50 rounded-2xl p-8 text-center border border-gray-100 hover:shadow-lg transition-shadow">
-                    <div class="w-16 h-16 mx-auto bg-blue-100 text-iconnet-blue rounded-full flex items-center justify-center text-2xl mb-6">
+                <div class="bg-blue-50 rounded-2xl p-8 text-center border border-blue-100 hover:shadow-lg transition-shadow group">
+                    <div class="w-20 h-20 mx-auto bg-white text-iconnet-blue rounded-2xl shadow-sm flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
                         <i class="fa-solid fa-infinity"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Tanpa Batasan Kuota (FUP)</h3>
-                    <p class="text-gray-600">Bebas internetan, streaming, dan main game sepuasnya tanpa perlu khawatir kecepatan diturunkan karena kuota habis.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Benar-benar Unlimited</h3>
+                    <p class="text-gray-600">Tanpa FUP (Fair Usage Policy)! Streaming film 4K, main game online, dan download file besar sepuasnya tanpa takut kecepatan diturunkan.</p>
                 </div>
 
-                <!-- Feature 3 -->
-                <div class="bg-gray-50 rounded-2xl p-8 text-center border border-gray-100 hover:shadow-lg transition-shadow">
-                    <div class="w-16 h-16 mx-auto bg-blue-100 text-iconnet-blue rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-headset"></i>
+                <div class="bg-blue-50 rounded-2xl p-8 text-center border border-blue-100 hover:shadow-lg transition-shadow group">
+                    <div class="w-20 h-20 mx-auto bg-white text-iconnet-blue rounded-2xl shadow-sm flex items-center justify-center text-3xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-user-gear"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-900 mb-3">Layanan Bantuan 24/7</h3>
-                    <p class="text-gray-600">Tim teknisi dan customer service siap membantu Anda kapan saja jika terjadi kendala pada koneksi internet Anda.</p>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Teknisi Lokal <span class="nama-kota">Jawa Tengah</span></h3>
+                    <p class="text-gray-600">Tim teknisi kami tersebar di seluruh wilayah <span class="nama-kota font-semibold">Jawa Tengah</span>. Menjamin respons yang lebih cepat jika ada pendaftaran baru atau kendala.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Paket Layanan Section -->
-    <section id="paket" class="py-20 bg-gray-50">
+    <!-- Promo Bundling 3 Bulan Section -->
+    <section id="promo-paket" class="py-20 bg-gray-50 border-t border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
-                <span class="inline-block py-1 px-3 rounded-full bg-red-100 text-red-600 font-bold text-sm mb-4 animate-pulse">
-                    <i class="fa-solid fa-fire mr-1"></i> PROMO SPESIAL
+                <span class="inline-block py-1 px-4 rounded-full bg-red-100 text-red-600 font-bold text-sm mb-4 border border-red-200">
+                    <i class="fa-solid fa-tag mr-1"></i> PENAWARAN TERBATAS
                 </span>
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Promo Paket Bundling 3 Bulan</h2>
-                <div class="w-20 h-1 bg-iconnet-orange mx-auto rounded-full mb-6"></div>
-                <p class="text-lg text-gray-600">Nikmati harga hemat untuk 3 bulan pertama. Gratis Biaya Instalasi!</p>
+                <h2 class="text-3xl md:text-5xl font-black text-gray-900 mb-4">Promo Paket Bundling 3 Bulan</h2>
+                <p class="text-xl text-gray-600 max-w-2xl mx-auto">Bayar 3 bulan di awal, dapatkan potongan harga besar-besaran dan <strong class="text-teal-600">Bebas Biaya Pemasangan (Hemat Rp250.000)</strong>.</p>
             </div>
 
-            <!-- Grid untuk 5 Paket Promo -->
+            <!-- Grid 5 Paket Lengkap -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
                 
-                <!-- Paket 10 Mbps -->
-                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-sm">
-                    <div class="p-4 bg-teal-600 text-white text-center">
-                        <div class="text-3xl mb-1"><i class="fa-solid fa-gauge-high"></i></div>
-                        <h3 class="text-xl font-bold">10 Mbps</h3>
+                <!-- 10 Mbps -->
+                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-md">
+                    <div class="p-5 bg-teal-600 text-white text-center">
+                        <h3 class="text-2xl font-black">10 Mbps</h3>
+                        <p class="text-teal-100 text-sm">Cocok untuk 2-3 Gadget</p>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between">
                         <div>
                             <div class="text-center mb-4">
-                                <p class="text-sm text-gray-400 line-through mb-1">Rp 666.000</p>
+                                <p class="text-sm text-gray-400 line-through mb-1">Normal: Rp 666.000</p>
                                 <div class="flex justify-center items-start text-teal-600">
                                     <span class="text-sm font-semibold mt-1">Rp</span>
                                     <span class="text-3xl font-black">498.390</span>
                                 </div>
-                                <p class="text-xs text-gray-500 mt-1 font-medium bg-teal-50 py-1 rounded">Untuk 3 Bulan Pertama</p>
+                                <p class="text-xs text-gray-600 mt-2 font-medium bg-teal-50 py-1.5 rounded-md border border-teal-100">Total untuk 3 Bulan</p>
                             </div>
-                            <div class="border-t border-gray-100 pt-4 mb-6">
-                                <p class="text-xs text-gray-500 text-center mb-1">Harga setelah 3 Bulan:</p>
+                            <div class="border-t border-dashed border-gray-200 pt-4 mb-6">
+                                <p class="text-xs text-gray-500 text-center mb-1">Harga perpanjangan (Bulan ke-4 dst):</p>
                                 <p class="text-lg font-bold text-gray-800 text-center">Rp 166.130 <span class="text-xs font-normal text-gray-500">/bln</span></p>
                             </div>
                         </div>
-                        <a href="https://wa.me/6282328588035?text=Halo,%20saya%20ingin%20daftar%20Promo%20ICONNET%2010%20Mbps%20Bundling%203%20Bulan" target="_blank" class="block w-full py-2 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-lg hover:bg-teal-600 hover:text-white transition-colors">
-                            Pilih Paket
+                        <a href="#" class="wa-link block w-full py-3 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-xl hover:bg-teal-600 hover:text-white transition-colors" data-wa-text="Halo, saya warga [KOTA], ingin daftar Promo ICONNET 10 Mbps Bundling 3 Bulan">
+                            Ambil Promo
                         </a>
                     </div>
                 </div>
 
-                <!-- Paket 20 Mbps -->
-                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-sm">
-                    <div class="p-4 bg-teal-600 text-white text-center">
-                        <div class="text-3xl mb-1"><i class="fa-solid fa-gauge-high"></i></div>
-                        <h3 class="text-xl font-bold">20 Mbps</h3>
+                <!-- 20 Mbps -->
+                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-md">
+                    <div class="p-5 bg-teal-600 text-white text-center">
+                        <h3 class="text-2xl font-black">20 Mbps</h3>
+                        <p class="text-teal-100 text-sm">Cocok untuk 3-5 Gadget</p>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between">
                         <div>
                             <div class="text-center mb-4">
-                                <p class="text-sm text-gray-400 line-through mb-1">Rp 695.970</p>
+                                <p class="text-sm text-gray-400 line-through mb-1">Normal: Rp 695.970</p>
                                 <div class="flex justify-center items-start text-teal-600">
                                     <span class="text-sm font-semibold mt-1">Rp</span>
                                     <span class="text-3xl font-black">531.690</span>
                                 </div>
-                                <p class="text-xs text-gray-500 mt-1 font-medium bg-teal-50 py-1 rounded">Untuk 3 Bulan Pertama</p>
+                                <p class="text-xs text-gray-600 mt-2 font-medium bg-teal-50 py-1.5 rounded-md border border-teal-100">Total untuk 3 Bulan</p>
                             </div>
-                            <div class="border-t border-gray-100 pt-4 mb-6">
-                                <p class="text-xs text-gray-500 text-center mb-1">Harga setelah 3 Bulan:</p>
+                            <div class="border-t border-dashed border-gray-200 pt-4 mb-6">
+                                <p class="text-xs text-gray-500 text-center mb-1">Harga perpanjangan (Bulan ke-4 dst):</p>
                                 <p class="text-lg font-bold text-gray-800 text-center">Rp 177.230 <span class="text-xs font-normal text-gray-500">/bln</span></p>
                             </div>
                         </div>
-                        <a href="https://wa.me/6282328588035?text=Halo,%20saya%20ingin%20daftar%20Promo%20ICONNET%2020%20Mbps%20Bundling%203%20Bulan" target="_blank" class="block w-full py-2 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-lg hover:bg-teal-600 hover:text-white transition-colors">
-                            Pilih Paket
+                        <a href="#" class="wa-link block w-full py-3 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-xl hover:bg-teal-600 hover:text-white transition-colors" data-wa-text="Halo, saya warga [KOTA], ingin daftar Promo ICONNET 20 Mbps Bundling 3 Bulan">
+                            Ambil Promo
                         </a>
                     </div>
                 </div>
 
-                <!-- Paket 35 Mbps (Recommended) -->
-                <div class="package-card bg-white rounded-2xl border-2 border-iconnet-orange overflow-hidden relative shadow-xl transform xl:-translate-y-4 flex flex-col z-10">
-                    <div class="absolute top-0 inset-x-0 bg-iconnet-orange text-white text-xs font-bold text-center py-1 uppercase tracking-wider">
-                        BEST CHOICE
+                <!-- 35 Mbps (Best Choice) -->
+                <div class="package-card bg-white rounded-2xl border-4 border-iconnet-orange overflow-hidden relative shadow-2xl transform xl:-translate-y-4 flex flex-col z-10">
+                    <div class="bg-iconnet-orange text-white text-xs font-black text-center py-1.5 uppercase tracking-widest shadow-sm">
+                        PALING LARIS
                     </div>
-                    <div class="p-4 bg-teal-600 text-white text-center mt-6">
-                        <div class="text-3xl mb-1"><i class="fa-solid fa-gauge-high"></i></div>
-                        <h3 class="text-xl font-bold">35 Mbps</h3>
+                    <div class="p-5 bg-teal-600 text-white text-center">
+                        <h3 class="text-2xl font-black">35 Mbps</h3>
+                        <p class="text-teal-100 text-sm">Streaming Lancar Sekeluarga</p>
                     </div>
-                    <div class="p-6 flex-grow flex flex-col justify-between">
+                    <div class="p-6 flex-grow flex flex-col justify-between bg-orange-50/30">
                         <div>
                             <div class="text-center mb-4">
-                                <p class="text-sm text-gray-400 line-through mb-1">Rp 795.870</p>
+                                <p class="text-sm text-gray-400 line-through mb-1">Normal: Rp 795.870</p>
                                 <div class="flex justify-center items-start text-iconnet-orange">
                                     <span class="text-sm font-semibold mt-1">Rp</span>
                                     <span class="text-4xl font-black">598.290</span>
                                 </div>
-                                <p class="text-xs text-orange-600 mt-1 font-bold bg-orange-50 py-1 rounded">Untuk 3 Bulan Pertama</p>
+                                <p class="text-xs text-orange-700 mt-2 font-bold bg-orange-100 py-1.5 rounded-md border border-orange-200">Total untuk 3 Bulan</p>
                             </div>
-                            <div class="border-t border-gray-100 pt-4 mb-6">
-                                <p class="text-xs text-gray-500 text-center mb-1">Harga setelah 3 Bulan:</p>
+                            <div class="border-t border-dashed border-gray-300 pt-4 mb-6">
+                                <p class="text-xs text-gray-500 text-center mb-1">Harga perpanjangan (Bulan ke-4 dst):</p>
                                 <p class="text-lg font-bold text-gray-800 text-center">Rp 199.430 <span class="text-xs font-normal text-gray-500">/bln</span></p>
                             </div>
                         </div>
-                        <a href="https://wa.me/6282328588035?text=Halo,%20saya%20ingin%20daftar%20Promo%20ICONNET%2035%20Mbps%20Bundling%203%20Bulan" target="_blank" class="block w-full py-3 px-4 bg-iconnet-orange text-white font-bold text-center rounded-lg hover:bg-orange-600 transition-colors shadow-md">
-                            Pilih Paket Ini
+                        <a href="#" class="wa-link block w-full py-3.5 px-4 bg-iconnet-orange text-white font-black text-center rounded-xl hover:bg-orange-600 transition-colors shadow-lg" data-wa-text="Halo, saya warga [KOTA], ingin daftar Promo ICONNET 35 Mbps Bundling 3 Bulan (Best Choice)">
+                            PILIH PAKET INI
                         </a>
                     </div>
                 </div>
 
-                <!-- Paket 50 Mbps -->
-                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-sm">
-                    <div class="p-4 bg-teal-600 text-white text-center">
-                        <div class="text-3xl mb-1"><i class="fa-solid fa-gauge-high"></i></div>
-                        <h3 class="text-xl font-bold">50 Mbps</h3>
+                <!-- 50 Mbps -->
+                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-md">
+                    <div class="p-5 bg-teal-600 text-white text-center">
+                        <h3 class="text-2xl font-black">50 Mbps</h3>
+                        <p class="text-teal-100 text-sm">Gaming & Smart Home</p>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between">
                         <div>
                             <div class="text-center mb-4">
-                                <p class="text-sm text-gray-400 line-through mb-1">Rp 995.670</p>
+                                <p class="text-sm text-gray-400 line-through mb-1">Normal: Rp 995.670</p>
                                 <div class="flex justify-center items-start text-teal-600">
                                     <span class="text-sm font-semibold mt-1">Rp</span>
                                     <span class="text-3xl font-black">687.090</span>
                                 </div>
-                                <p class="text-xs text-gray-500 mt-1 font-medium bg-teal-50 py-1 rounded">Untuk 3 Bulan Pertama</p>
+                                <p class="text-xs text-gray-600 mt-2 font-medium bg-teal-50 py-1.5 rounded-md border border-teal-100">Total untuk 3 Bulan</p>
                             </div>
-                            <div class="border-t border-gray-100 pt-4 mb-6">
-                                <p class="text-xs text-gray-500 text-center mb-1">Harga setelah 3 Bulan:</p>
+                            <div class="border-t border-dashed border-gray-200 pt-4 mb-6">
+                                <p class="text-xs text-gray-500 text-center mb-1">Harga perpanjangan (Bulan ke-4 dst):</p>
                                 <p class="text-lg font-bold text-gray-800 text-center">Rp 229.030 <span class="text-xs font-normal text-gray-500">/bln</span></p>
                             </div>
                         </div>
-                        <a href="https://wa.me/6282328588035?text=Halo,%20saya%20ingin%20daftar%20Promo%20ICONNET%2050%20Mbps%20Bundling%203%20Bulan" target="_blank" class="block w-full py-2 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-lg hover:bg-teal-600 hover:text-white transition-colors">
-                            Pilih Paket
+                        <a href="#" class="wa-link block w-full py-3 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-xl hover:bg-teal-600 hover:text-white transition-colors" data-wa-text="Halo, saya warga [KOTA], ingin daftar Promo ICONNET 50 Mbps Bundling 3 Bulan">
+                            Ambil Promo
                         </a>
                     </div>
                 </div>
 
-                <!-- Paket 100 Mbps -->
-                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-sm">
-                    <div class="p-4 bg-teal-600 text-white text-center">
-                        <div class="text-3xl mb-1"><i class="fa-solid fa-gauge-high"></i></div>
-                        <h3 class="text-xl font-bold">100 Mbps</h3>
+                <!-- 100 Mbps -->
+                <div class="package-card bg-white rounded-2xl border border-gray-200 overflow-hidden relative flex flex-col shadow-md">
+                    <div class="p-5 bg-teal-600 text-white text-center">
+                        <h3 class="text-2xl font-black">100 Mbps</h3>
+                        <p class="text-teal-100 text-sm">Bisnis & Cafe Kecil</p>
                     </div>
                     <div class="p-6 flex-grow flex flex-col justify-between">
                         <div>
                             <div class="text-center mb-4">
-                                <p class="text-sm text-gray-400 line-through mb-1">Rp 1.328.670</p>
+                                <p class="text-sm text-gray-400 line-through mb-1">Normal: Rp 1.328.670</p>
                                 <div class="flex justify-center items-start text-teal-600">
                                     <span class="text-sm font-semibold mt-1">Rp</span>
                                     <span class="text-3xl font-black">864.690</span>
                                 </div>
-                                <p class="text-xs text-gray-500 mt-1 font-medium bg-teal-50 py-1 rounded">Untuk 3 Bulan Pertama</p>
+                                <p class="text-xs text-gray-600 mt-2 font-medium bg-teal-50 py-1.5 rounded-md border border-teal-100">Total untuk 3 Bulan</p>
                             </div>
-                            <div class="border-t border-gray-100 pt-4 mb-6">
-                                <p class="text-xs text-gray-500 text-center mb-1">Harga setelah 3 Bulan:</p>
+                            <div class="border-t border-dashed border-gray-200 pt-4 mb-6">
+                                <p class="text-xs text-gray-500 text-center mb-1">Harga perpanjangan (Bulan ke-4 dst):</p>
                                 <p class="text-lg font-bold text-gray-800 text-center">Rp 288.230 <span class="text-xs font-normal text-gray-500">/bln</span></p>
                             </div>
                         </div>
-                        <a href="https://wa.me/6282328588035?text=Halo,%20saya%20ingin%20daftar%20Promo%20ICONNET%20100%20Mbps%20Bundling%203%20Bulan" target="_blank" class="block w-full py-2 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-lg hover:bg-teal-600 hover:text-white transition-colors">
-                            Pilih Paket
+                        <a href="#" class="wa-link block w-full py-3 px-4 bg-white border-2 border-teal-600 text-teal-600 font-bold text-center rounded-xl hover:bg-teal-600 hover:text-white transition-colors" data-wa-text="Halo, saya warga [KOTA], ingin daftar Promo ICONNET 100 Mbps Bundling 3 Bulan">
+                            Ambil Promo
                         </a>
                     </div>
                 </div>
 
             </div>
 
-            <!-- Benefit Tambahan -->
-            <div class="mt-12 bg-white rounded-xl shadow-sm border border-gray-200 p-6 max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-                <div class="flex items-center gap-4">
-                    <div class="w-16 h-16 bg-teal-100 text-teal-600 rounded-full flex items-center justify-center text-3xl shrink-0">
-                        <i class="fa-solid fa-screwdriver-wrench"></i>
-                    </div>
-                    <div>
-                        <h4 class="text-xl font-bold text-gray-900">Biaya Instalasi <span class="text-teal-600">GRATIS</span></h4>
-                        <p class="text-gray-500 text-sm">Hemat Rp 250.000 untuk pendaftaran baru selama periode promo!</p>
-                    </div>
-                </div>
-                <a href="https://wa.me/6282328588035" target="_blank" class="whitespace-nowrap bg-iconnet-blue text-white px-6 py-3 rounded-lg font-bold hover:bg-blue-800 transition-colors shadow-md">
-                    Hubungi Sekarang
-                </a>
-            </div>
-            
-            <p class="text-center text-xs text-gray-400 mt-8">*Harga promo berlaku untuk pelanggan baru dengan skema pembayaran bundling 3 bulan di awal.</p>
-        </div>
-    </section>
-
-    <!-- Galeri Section -->
-    <section id="galeri" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Galeri Pemasangan</h2>
-                <div class="w-20 h-1 bg-iconnet-orange mx-auto rounded-full mb-6"></div>
-                <p class="text-lg text-gray-600">Dokumentasi hasil kerja tim teknisi kami di lapangan.</p>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <!-- Gallery Images (Menggunakan Placeholder Unsplash dengan Alt Text SEO) -->
-                <div class="aspect-square rounded-xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pemasangan Router WiFi ICONNET Batang" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="aspect-square rounded-xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1614332287897-cdc485fa562d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Kabel Fiber Optic PLN Batang" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="aspect-square rounded-xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1558227691-41ea78d1f631?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Teknisi ICONNET melakukan instalasi" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="aspect-square rounded-xl overflow-hidden group">
-                    <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Setting Jaringan Internet ICONNET" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
-                 <div class="aspect-square rounded-xl overflow-hidden group hidden md:block">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Perangkat Modem ICONNET" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="aspect-square rounded-xl overflow-hidden group hidden md:block">
-                    <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Speedtest Internet Cepat ICONNET" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="aspect-square rounded-xl overflow-hidden group hidden lg:block">
-                    <img src="https://images.unsplash.com/photo-1620288627223-53302f4e8c74?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Layanan Pelanggan ICONNET Batang" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
-                <div class="aspect-square rounded-xl overflow-hidden group hidden lg:block">
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Pekerjaan Fiber Optic ICONNET" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500">
-                </div>
+            <!-- Syarat dan Ketentuan Singkat -->
+            <div class="mt-12 bg-blue-50 border border-blue-100 rounded-xl p-6 text-center max-w-4xl mx-auto">
+                <p class="text-sm text-gray-600"><i class="fa-solid fa-circle-info text-iconnet-blue mr-1"></i> Harga di atas belum termasuk PPN 11%. Promo hanya berlaku untuk pendaftaran pelanggan baru dengan area yang sudah ter-cover jaringan ICONNET Fiber Optic.</p>
             </div>
         </div>
     </section>
 
-    <!-- Testimoni Section -->
-    <section class="py-20 bg-iconnet-lightBlue">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Apa Kata Pelanggan Kami?</h2>
-                <div class="w-20 h-1 bg-iconnet-orange mx-auto rounded-full mb-6"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Testimoni 1 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 relative">
-                    <i class="fa-solid fa-quote-left text-4xl text-blue-100 absolute top-4 left-4"></i>
-                    <div class="relative z-10">
-                        <div class="flex text-yellow-400 mb-4 text-sm">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="text-gray-600 mb-6 italic">"Proses pemasangan sangat cepat, baru daftar kemarin hari ini sudah nyala. Koneksinya mantap buat streaming sekeluarga tidak ada buffering."</p>
-                        <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center font-bold text-gray-500">
-                                BS
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900">Budi Santoso</h4>
-                                <p class="text-xs text-gray-500">Pelanggan Paket 35 Mbps</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimoni 2 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 relative">
-                    <i class="fa-solid fa-quote-left text-4xl text-blue-100 absolute top-4 left-4"></i>
-                    <div class="relative z-10">
-                        <div class="flex text-yellow-400 mb-4 text-sm">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-                        </div>
-                        <p class="text-gray-600 mb-6 italic">"Awalnya ragu karena harganya murah, tapi setelah dicoba ternyata stabil banget. Buat main game ping-nya kecil. Recomended banget ICONNET!"</p>
-                        <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center font-bold text-gray-500">
-                                AR
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900">Ahmad Rizky</h4>
-                                <p class="text-xs text-gray-500">Pelanggan Paket 50 Mbps</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimoni 3 -->
-                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 relative">
-                    <i class="fa-solid fa-quote-left text-4xl text-blue-100 absolute top-4 left-4"></i>
-                    <div class="relative z-10">
-                        <div class="flex text-yellow-400 mb-4 text-sm">
-                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>
-                        </div>
-                        <p class="text-gray-600 mb-6 italic">"CS nya ramah dan responsif. Kemarin sempat ada kendala teknis krn kabel putus kena pohon, lapor langsung ditangani hari itu juga. Keren pelayanannya."</p>
-                        <div class="flex items-center gap-4">
-                            <div class="w-12 h-12 bg-gray-200 rounded-full flex items-center justify-center font-bold text-gray-500">
-                                SA
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900">Siti Aisyah</h4>
-                                <p class="text-xs text-gray-500">Pelanggan Paket 20 Mbps</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- CTA Pendaftaran Section -->
+    <section class="py-16 bg-iconnet-blue text-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Cek Lokasi Jaringan di <span class="nama-kota text-yellow-300">Daerah Anda</span>!</h2>
+            <p class="text-blue-100 mb-8 text-lg">Kirimkan share lokasi rumah Anda via WhatsApp. Tim teknisi kami akan segera mengecek ketersediaan tiang fiber optic terdekat secara gratis.</p>
+            <a href="#" class="wa-link inline-block bg-[#25D366] text-white px-8 py-4 rounded-full font-black text-xl hover:bg-[#128C7E] transition-colors shadow-xl" data-wa-text="Halo, bisa bantu cek lokasi rumah saya di [KOTA] apakah sudah tercover jaringan ICONNET?">
+                <i class="fa-brands fa-whatsapp mr-2"></i> Cek Coverage Sekarang
+            </a>
+            <p class="mt-6 text-sm text-blue-200">Menjangkau seluruh wilayah <span class="nama-kota font-semibold">Jawa Tengah</span>.</p>
         </div>
     </section>
 
-    <!-- Kontak & Lokasi Section -->
-    <section id="kontak" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                <!-- Info Kontak -->
-                <div>
-                    <h2 class="text-3xl font-bold text-gray-900 mb-4">Hubungi Kami</h2>
-                    <div class="w-16 h-1 bg-iconnet-orange rounded-full mb-8"></div>
-                    <p class="text-gray-600 mb-8">Ingin berlangganan atau memiliki pertanyaan seputar layanan ICONNET? Jangan ragu untuk menghubungi kami atau kunjungi kantor agen kami.</p>
-                    
-                    <div class="space-y-6">
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-blue-50 text-iconnet-blue rounded-lg flex items-center justify-center text-xl shrink-0">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 text-lg">Alamat Kantor Pemasaran</h4>
-                                <p class="text-gray-600">JL Papua Blok Q no 4, Perum Pasekaran Griya Permai Batang</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-green-50 text-green-600 rounded-lg flex items-center justify-center text-xl shrink-0">
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 text-lg">WhatsApp / Telepon</h4>
-                                <p class="text-gray-600">+62 823 2858 8035 (Fast Response)</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-green-50 text-green-600 rounded-lg flex items-center justify-center text-xl shrink-0">
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 text-lg">WhatsApp / Telepon</h4>
-                                <p class="text-gray-600">+62 812 3456 7890 (Fast Response)</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-orange-50 text-iconnet-orange rounded-lg flex items-center justify-center text-xl shrink-0">
-                                <i class="fa-regular fa-clock"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-gray-900 text-lg">Jam Operasional Layanan Pendaftaran</h4>
-                                <p class="text-gray-600">Senin - Sabtu: 08.00 - 17.00 WIB</p>
-                                <p class="text-gray-600">Minggu / Libur: Tutup (Hanya melayani chat via WA)</p>
-                                <p class="text-sm text-gray-400 mt-1">*Layanan gangguan jaringan tetap aktif 24/7</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="mt-10">
-                        <h4 class="font-bold text-gray-900 mb-4">Ikuti Kami di Sosial Media</h4>
-                        <div class="flex gap-4">
-                            <a href="#" class="w-10 h-10 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center hover:bg-iconnet-blue hover:text-white transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
-                            <a href="#" class="w-10 h-10 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="#" class="w-10 h-10 bg-gray-100 text-gray-600 rounded-full flex items-center justify-center hover:bg-black hover:text-white transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Google Maps -->
-                <div class="bg-gray-100 rounded-2xl overflow-hidden h-[400px] lg:h-auto min-h-[400px] shadow-inner relative">
-                    <!-- Google Maps Embed -->
-                    <iframe 
-                        src="https://maps.google.com/maps?q=JL%20Papua%20Blok%20Q%20no%204,%20Perum%20Pasekaran%20Griya%20Permai%20Batang&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade"
-                        class="absolute inset-0">
-                    </iframe>
+    <!-- Footer Simple -->
+    <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm border-t-4 border-iconnet-orange">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-center mb-4">
+                <div class="bg-white p-2 rounded inline-block">
+                    <img src="https://iconnet.id/_ipx/h_150&f_webp&q_80/assets/img/logo-iconnet.webp" alt="Logo ICONNET" class="h-6 w-auto">
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-900 text-white pt-12 pb-8 border-t-4 border-iconnet-blue">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-                <div>
-                    <div class="flex items-center gap-2 mb-6">
-                        <!-- Logo ICONNET di Footer -->
-                        <div class="bg-white p-2 rounded-lg inline-block">
-                            <img src="https://iconnet.id/_ipx/h_150&f_webp&q_80/assets/img/logo-iconnet.webp" alt="Logo ICONNET" class="h-8 w-auto">
-                        </div>
-                    </div>
-                    <p class="text-gray-400 text-sm leading-relaxed mb-4">
-                        Website ini adalah halaman promosi mitra/agen resmi penjualan layanan internet ICONNET. Bukan merupakan website resmi corporate PT Indonesia Comnets Plus (ICON+).
-                    </p>
-                </div>
-                <div>
-                    <h4 class="font-bold text-lg mb-4 text-white">Tautan Cepat</h4>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="#beranda" class="hover:text-iconnet-orange transition-colors">Beranda</a></li>
-                        <li><a href="#profil" class="hover:text-iconnet-orange transition-colors">Tentang Kami</a></li>
-                        <li><a href="#paket" class="hover:text-iconnet-orange transition-colors">Daftar Harga / Paket</a></li>
-                        <li><a href="#galeri" class="hover:text-iconnet-orange transition-colors">Galeri Pemasangan</a></li>
-                        <li><a href="#kontak" class="hover:text-iconnet-orange transition-colors">Hubungi Kami</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="font-bold text-lg mb-4 text-white">Syarat & Ketentuan</h4>
-                    <ul class="space-y-2 text-sm text-gray-400">
-                        <li><a href="#" class="hover:text-iconnet-orange transition-colors">Kebijakan Privasi</a></li>
-                        <li><a href="#" class="hover:text-iconnet-orange transition-colors">S&K Layanan</a></li>
-                        <li><a href="#" class="hover:text-iconnet-orange transition-colors">Cek Coverage Area (Via WA)</a></li>
-                    </ul>
-                </div>
-            </div>
-            
-            <!-- SEO Content: Area Layanan -->
-            <div class="border-t border-gray-800 pt-8 mb-8">
-                <h4 class="text-sm font-bold text-gray-400 mb-2">Area Layanan Pemasangan WiFi ICONNET:</h4>
-                <p class="text-xs text-gray-500 leading-relaxed text-justify">
-                    Kami melayani pendaftaran dan pasang WiFi ICONNET untuk wilayah Batang dan jangkauan seluruh kota/kabupaten di Jawa Tengah, meliputi: pasang wifi di Semarang, Surakarta (Solo), Magelang, Salatiga, Pekalongan, Tegal, Banjarnegara, Banyumas (Purwokerto), Batang, Blora, Boyolali, Brebes, Cilacap, Demak, Grobogan (Purwodadi), Jepara, Karanganyar, Kebumen, Kendal, Klaten, Kudus, Pati, Pemalang, Purbalingga, Purworejo, Rembang, Sragen, Sukoharjo, Temanggung, Wonogiri, dan Wonosobo. Nikmati internet fiber optic unlimited dari PLN di area Anda.
-                </p>
-            </div>
-
-            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <p class="text-sm text-gray-500 text-center md:text-left">
-                    &copy; 2024 Mitra Penjualan ICONNET. All rights reserved.
-                </p>
-                <div class="text-sm text-gray-500">
-                    Dibuat dengan <i class="fa-solid fa-heart text-red-500"></i> untuk kemudahan internet Anda.
-                </div>
+            <p>&copy; 2024 Mitra Pemasaran ICONNET area <span class="nama-kota">Jawa Tengah</span>.</p>
+            <div class="mt-4">
+                <a href="area-layanan.html" class="text-iconnet-orange hover:underline">Lihat Area Layanan Lainnya</a> | 
+                <a href="index.html" class="text-iconnet-orange hover:underline">Kembali ke Beranda Utama</a>
             </div>
         </div>
     </footer>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/6282328588035?text=Halo,%20saya%20tertarik%20dengan%20layanan%20internet%20ICONNET.%20Bisa%20bantu%20cek%20lokasi%20saya?" target="_blank" class="whatsapp-float bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-[#128C7E] transition-colors" title="Hubungi kami di WhatsApp">
+    <a href="#" class="wa-link whatsapp-float bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-[#128C7E] transition-colors" title="Hubungi kami di WhatsApp" data-wa-text="Halo, saya warga [KOTA], mohon info Promo ICONNET">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
 
-    <!-- Scripts -->
+    <!-- Logika Javascript Cerdas untuk Injeksi Nama Kota -->
     <script>
-        // Add active state to navbar and bottom nav based on scroll position
-        const sections = document.querySelectorAll("section[id]");
-        const desktopLinks = document.querySelectorAll(".desktop-link");
-        const mobileLinks = document.querySelectorAll(".mobile-nav-link");
-
-        window.addEventListener("scroll", () => {
-            let current = "";
-            const scrollY = window.pageYOffset;
-
-            sections.forEach((section) => {
-                const sectionHeight = section.offsetHeight;
-                const sectionTop = section.offsetTop - 150; // Offset yang lebih besar agar transisi mulus
-                
-                if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-                    current = section.getAttribute("id");
-                }
-            });
-
-            // Update Desktop Links
-            desktopLinks.forEach((link) => {
-                link.classList.remove("text-iconnet-blue", "font-bold");
-                link.classList.add("text-gray-600");
-                if (link.getAttribute("href").includes(current) && current !== "") {
-                    link.classList.add("text-iconnet-blue", "font-bold");
-                    link.classList.remove("text-gray-600");
-                }
-            });
-
-            // Update Mobile Bottom Links
-            mobileLinks.forEach((link) => {
-                link.classList.remove("active", "text-iconnet-blue");
-                link.classList.add("text-gray-400");
-                if (link.getAttribute("data-target") === current) {
-                    link.classList.add("active");
-                    link.classList.remove("text-gray-400");
-                }
-            });
-        });
-
-        // Navbar scroll effect (Desktop)
-        const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 10) {
-                navbar.classList.add('shadow-md');
-                navbar.classList.replace('glass-effect', 'bg-white');
-            } else {
-                navbar.classList.remove('shadow-md');
-                navbar.classList.replace('bg-white', 'glass-effect');
+        document.addEventListener("DOMContentLoaded", () => {
+            // 1. Ambil nama kota dari URL (contoh: ?kota=Semarang)
+            const urlParams = new URLSearchParams(window.location.search);
+            let kotaParam = urlParams.get('kota');
+            
+            // 2. Format nama kota (Huruf kapital di awal kata) atau gunakan "Jawa Tengah" sebagai cadangan
+            let kota = kotaParam ? kotaParam.replace(/\b\w/g, l => l.toUpperCase()) : "Jawa Tengah";
+            
+            // 3. Jika kota ditemukan melalui link, ubah SEO & Meta Description
+            if (kotaParam) {
+                document.getElementById('page-title').textContent = `Promo Pasang ICONNET ${kota} - Paket Bundling 3 Bulan Termurah`;
+                document.getElementById('meta-desc').setAttribute("content", `Promo khusus warga ${kota}! Pasang WiFi ICONNET PLN Paket Bundling 3 Bulan. Gratis biaya instalasi, koneksi lancar.`);
             }
+
+            // 4. Ubah SEMUA teks di HTML yang punya class "nama-kota"
+            const cityElements = document.querySelectorAll('.nama-kota');
+            cityElements.forEach(el => {
+                // Jika elemen memiliki class uppercase, buat hurufnya besar semua
+                if (el.classList.contains('uppercase')) {
+                     el.textContent = kota.toUpperCase();
+                } else {
+                     el.textContent = kota;
+                }
+            });
+
+            // 5. Ubah SEMUA link WhatsApp agar otomatis berisi pesan dengan nama kota
+            const waLinks = document.querySelectorAll('.wa-link');
+            waLinks.forEach(link => {
+                // Gunakan nomor telepon resmi yang terpusat di Batang
+                const originalBase = "https://wa.me/6282328588035?text=";
+                
+                // Ambil template teks dari atribut data HTML
+                let templateText = link.getAttribute('data-wa-text');
+                
+                // Ganti kata "[KOTA]" dengan nama kota aktual
+                let newText = templateText.replace(/\[KOTA\]/g, kota);
+                
+                // Pasang link tersebut kembali ke tombol
+                link.href = originalBase + encodeURIComponent(newText);
+            });
         });
     </script>
+
 </body>
 </html>
