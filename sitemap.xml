@@ -1,46 +1,183 @@
-<!-- Halaman Utama Website (Prioritas Tertinggi) -->
+<!-- Halaman Utama -->
 <url>
     <loc>https://iconnetjateng.web.id/</loc>
-    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2026-06-17T12:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
 </url>
 
-<!-- 
-CATATAN UNTUK PENGEMBANGAN KE DEPAN:
-Jika nanti Anda membuat halaman/file HTML baru secara terpisah 
-(bukan di dalam index.html), Anda bisa menghapus tanda komentar 
-di bawah ini dan mengubah URL-nya.
--->
-
-<!-- Contoh Halaman Legalitas -->
-<!--
+<!-- Halaman Indeks Area Layanan -->
 <url>
-    <loc>https://iconnetjateng.web.id/kebijakan-privasi.html</loc>
-    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://iconnetjateng.web.id/area-layanan.html</loc>
+    <lastmod>2026-06-17T12:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
 </url>
-<url>
-    <loc>https://iconnetjateng.web.id/syarat-ketentuan.html</loc>
-    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
--->
 
-<!-- Contoh Halaman Khusus Kota (Jika Ingin Dibuatkan Halaman Terpisah) -->
-<!--
+<!-- Halaman Promo Khusus Batang (Landing Page Utama) -->
 <url>
-    <loc>https://iconnetjateng.web.id/pasang-wifi-semarang.html</loc>
-    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
+    <loc>https://iconnetjateng.web.id/promo-batang.html</loc>
+    <lastmod>2026-06-17T12:00:00+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+</url>
+
+<!-- ======================================================== -->
+<!-- SMART LANDING PAGE: SELURUH 31 KOTA/KABUPATEN JAWA TENGAH -->
+<!-- ======================================================== -->
+
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Semarang</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
 <url>
-    <loc>https://iconnetjateng.web.id/pasang-wifi-pekalongan.html</loc>
-    <lastmod>2026-06-05T18:00:00+07:00</lastmod>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Surakarta%20Solo</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
 </url>
--->
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Magelang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Salatiga</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Pekalongan</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Tegal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Banjarnegara</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Banyumas%20Purwokerto</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Batang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Blora</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Boyolali</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Brebes</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Cilacap</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Demak</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Grobogan%20Purwodadi</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Jepara</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Karanganyar</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Kebumen</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Kendal</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Klaten</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Kudus</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Pati</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Pemalang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Purbalingga</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Purworejo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Rembang</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Sragen</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Sukoharjo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Temanggung</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Wonogiri</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://iconnetjateng.web.id/promo-lokasi.html?kota=Wonosobo</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
